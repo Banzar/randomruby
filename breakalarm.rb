@@ -1,21 +1,25 @@
-until (Time.now.hour == 8 && Time.now.min == 29)
+#!/usr/bin/ruby
+hours = Time.now.hour
+minutes = Time.now.min
+
+until (hours == 8 && minutes == 29)
 sleep(1)
 end
 print "\a"
 
-until (Time.now.hour == 10 && Time.now.min == 29)
+until (hours == 10 && minutes == 29)
 sleep(1)
 end
 print "\a\a"
 puts "Time for lunch"
 
-until (Time.now.hour == 12 && Time.now.min == 59)
+until (hours == 12 && minutes == 59)
 sleep(1)
 end
 print "\a"
 
-until (Time.now.hour == 15 && Time.now.min == 29)
+until (hours == 15 && minutes == 29)
 sleep(1)
 end
 print "\a\a\a\a"
-Puts "Time to log off in one minute"
+puts "Time to log off in one minute"
