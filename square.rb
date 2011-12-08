@@ -8,7 +8,7 @@ if (number1 > 0)
 numbsqrt = Math.sqrt(number1)
 	puts "The squareroot of #{number1} is #{numbsqrt}"
 else
-print "This is not a valid number."
+puts "This is not a valid number."
 end
 print "Would you like another squareroot? (Yes or no): "
 again = gets.chomp
